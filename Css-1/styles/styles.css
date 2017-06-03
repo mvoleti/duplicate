@@ -9,20 +9,43 @@ form {
     background-color: aliceblue;
     
 }
-label,input {
+
+label{
     display:block;
     margin-bottom: 10px;
+    padding:2px 3px;
+    border-radius:3px;
+}
+input {
+    display:block;
+    margin-bottom: 10px;
+    padding:5px 3px;
+    border-radius:3px;
+    border:2px solid #98b2b0;
 }
 button[type="submit"]{
     border:2px solid #6f6;
     background-color:#6f6;
+    padding:10px 15px;
+    border-radius:10px;
+    margin-top: 10px;
 }
 
 button[type="reset"]{
     border:2px solid #ff0000;
     background-color:#ff0000;
+    padding:10px 15px;
+    border-radius:10px;
 }
 li {
     display:inline;
-    padding:20px;
+    padding:1px 25px;
+    border:2px solid #98b2b0;
+    background:#98b2b0;
+}
+nav{
+    position:fixed;
+    top:0px;
+    left:450px;
+    background:#98b2b0;
 }
