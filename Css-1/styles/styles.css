@@ -1,34 +1,35 @@
 form {
-    border:3px solid Black;
+    border:2px solid Black;
     display:block;
-    width:30%;
+    width:25%;
     border-radius:15px;
-    padding:20px;
-    margin-left: 35%;
-    margin-right: 35%;
+    padding:35px 20px;
+    margin-left: 45%;
+    margin-right: 25%;
     background-color: aliceblue;
     
 }
 
 label{
-    display:block;
-    margin-bottom: 10px;
-    padding:2px 3px;
-    border-radius:3px;
+    display:inline;
+    /*margin-bottom: 5px;
+    padding:1px 3px;
+    border-radius:3px;*/
 }
 input {
     display:block;
-    margin-bottom: 10px;
+    margin-bottom:5px;
     padding:5px 3px;
     border-radius:3px;
     border:2px solid #98b2b0;
 }
 button[type="submit"]{
-    border:2px solid #6f6;
-    background-color:#6f6;
+    border:2px solid #641cf7;
+    background-color:#641cf7;
     padding:10px 15px;
     border-radius:10px;
     margin-top: 10px;
+    color:#fff;
 }
 
 button[type="reset"]{
@@ -37,15 +38,116 @@ button[type="reset"]{
     padding:10px 15px;
     border-radius:10px;
 }
-li {
+li{
     display:inline;
-    padding:1px 25px;
-    border:2px solid #98b2b0;
-    background:#98b2b0;
+    padding:1px 5px;
+    border:2px solid #9631f4;
+    background:#9631f4;
+    color:#fff;
 }
-nav{
+#main-section{
+    position:relative;
+    top:75px;
+}
+
+#nav-heading,#nav-footer{
     position:fixed;
-    top:0px;
-    left:450px;
-    background:#98b2b0;
+    background:#9631f4;
+    width:1570px;
+    border-radius: 10px;
 }
+nav#nav-header{
+    width:750px;
+    margin:0px 350px;
+}
+
+br+button:hover{
+    background:#f9f221;
+    border:2px solid #f9f221;
+    color:#000;
+    cursor: pointer;
+}
+
+button ~ button:hover{
+    background:#5ff60b;
+    border:2px solid #5ff60b;
+    color:#000;
+    cursor: pointer;
+}
+
+#nav-heading{
+    top:0px;
+}
+#nav-footer{
+    bottom:0px;
+    left:0px;
+    background:#9631f4;
+    padding:5px 0px;
+}
+#nav-footer>ul{
+    margin:5px 350px;
+}
+#main-heading{
+    position:absolute;
+    left:20%;
+    top:240px;
+    color:#000;
+    font-size: 22px;
+    opacity: 1;
+}
+body{
+    background:url(back.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+div >label{
+    position:relative;
+    top:-30px;
+    left:15px;
+}
+input:focus + label,
+input:hover + label,
+input:valid + label{
+    top:-65px;
+    transition: all 3s linear;
+}
+#gender{
+    display: block;
+    margin-bottom: 10px;
+}
+.link{
+    text-decoration: none;
+    color:#000;
+    border:2px solid #3ef245;
+    border-radius: 10px;
+    padding: 5px 15px;
+    background-color: #3ef245;
+}
+a:hover{
+    font-size: 19px;
+}
+#prev{
+    background: url(sprite.gif) -47px 0px;
+    position: absolute;
+    top: 2px;
+    left: 295px;
+    width: 33px;
+    height: 42px;
+}
+#home{
+    background: url(sprite.gif) 0px 0px;
+    position: absolute;
+    top: 2px;
+    left: 344px;
+    width: 33px;
+    height: 39px;
+}
+#next{
+    background: url(sprite.gif) -91px 0px;
+    position: absolute;
+    top: 2px;
+    left: 860px;
+    width: 33px;
+    height: 42px;
+}
+

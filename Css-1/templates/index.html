@@ -8,39 +8,91 @@
         <meta keywords="Liscence Form,DMV" />
         <base />
         <link rel="stylesheet" href="../styles/styles.css" />
+        <link rel="stylesheet" href="../styles/animation.css" />
         
     </head>
     <body>
         <article>
-            <header> <h1>Hello World !</h1></header>
-            <section>
-                <div>
-                    <nav>
-                    <ul style="list-style-type:none;">
-                        <li>Home</li>
-                        <li>Gallery</li>
-                        <li>Contact Us</li>
-                        <li>Help</li>
-                    </ul>
-                    </nav>
-                </div>
+            <header id="main-heading"> <b>DMV New Liscence Form</b> </header>
+            <section id="main-section">
+                <article>
+                    <header id="nav-heading">
+                        <nav id="nav-header">
+                            <ul>
+                                <li id="prev">
+                                    <a href="index.html"></a>
+                                </li>
+                                <li id="home">
+                                    <a href="index.html"></a>
+                                </li>
+                                <li>
+                                    <a class="link" href="https://www.google.com/maps/"> Maps </a>
+                                </li>
+                                <li>
+                                    <a class="link" href="https://mail.google.com/mail/"> Mail </a>
+                                </li>
+                                <li>
+                                    <a class="link" href="https://www.google.com/imghp?hl=en&tab=wi&ei=yoc8WYq6OozAjwS3uaioBw&ved=0EKouCBgoAQ"> Images </a>
+                                </li>
+                                <li>
+                                    <a class="link" href="https://www.google.com/shopping/"> Shopping </a>
+                                </li>
+                                <li>
+                                    <a class="link" href="https://news.google.com/nwshp?hl=en&tab=in&ei=zIc8WaWfOsrOjwTg2ISoBA&ved=0EKkuCAgoBQ"> News </a>
+                                </li>
+                                <li id="next">
+                                    <a href="index.html"></a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </header>
+                    <section></section>
+                    <footer id="footer"> !!! Application For New Liscence Form !!! </footer>
+                </article>
                 <form autocomplete="off">
-                <label for="fn"><b>First Name:-</b></label>
-                <input type="text" name="fn" placeholder="First name" autofocus required/>
-                <label for="ls"><b>Last Name:-</b></label>
-                <input type="text" name="ls" placeholder="Last Name" required/>
-                <label for ="Phn Number"><b>Contact Number:-</b></label>
-                <input type="number" name="Phn Number" value="Phn Number" required/>
-                <label for="Gender"><b>Gender:-</b></label>
-                <label style="display:inline;" for="Male">Male:</label>
-                <input style="display:inline;" type="radio" name="Gender"value="Male" />
-                <label style="display:inline;" for="Female">Female:</label>
-                <input style="display:inline;" type="radio" name="Gender"value="Female" /><br />
-                <button type="submit" ><b>Submit</b></button>
-                <button type="reset" ><b>Reset</b></button>
+                        <div>
+                            <input type="text" name="fn" required/>
+                            <label for="fn"><b>First Name:-</b></label>
+                        </div><br />
+                        <div>
+                            <input type="text" name="ls"  required/>
+                            <label for="ls"><b>Last Name:-</b></label>
+
+                        </div><br />
+                        <div>
+                            <input type="text" name="Phn Number" required/>
+                            <label for ="Phn Number"><b>Contact Number:-</b></label>
+                        </div>
+                            <label id="gender" for="Gender"><b>Gender:-</b></label>
+                            <label style="display:inline;" for="Male">Male:</label>
+                            <input style="display:inline;" type="radio" name="Gender"value="Male" />
+                            <label style="display:inline;" for="Female">Female:</label>
+                            <input style="display:inline;" type="radio" name="Gender"value="Female" /><br />
+                    <button type="submit" ><b>Submit</b></button>
+                    <button type="reset" ><b>Reset</b></button>
                 </form>
             </section>
-            <footer><p>I am Footer</p></footer>
+            <footer>
+                <nav id="nav-footer">
+                    <ul>
+                        <li>
+                            <a class="link" href="https://www.w3schools.com/html/"> HTML </a>
+                        </li>
+                        <li>
+                            <a class="link" href="https://www.w3schools.com/css/default.asp"> CSS </a>
+                        </li>
+                        <li>
+                            <a class="link" href="https://www.w3schools.com/js/default.asp"> JavaScript </a>
+                        </li>
+                        <li>
+                            <a class="link" href="https://www.w3schools.com/bootstrap/default.asp"> Bootstrap </a>
+                        </li>
+                        <li>
+                            <a class="link" href="https://www.w3schools.com/angular/default.asp"> AngularJS </a>
+                        </li>
+                    </ul>
+                </nav>
+            </footer>
         </article>
     </body>
 </html>
